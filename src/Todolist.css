@@ -1,0 +1,50 @@
+.card{
+    margin-top: 20px;
+    background-color: white;
+    width: 10rem;
+    height: 8rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 2px black;
+}
+.list{
+    margin-bottom: 1rem;
+    font-weight: 900;
+    text-transform:capitalize;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+}
+.wraper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+.button1{
+    margin-bottom: 6px;
+    width: 5rem;
+    height: 2rem;
+}
+.button1.upper:hover{
+    background-color: rgb(173, 67, 67);
+}
+.button1.lower:hover{
+    background-color:green;
+}
+@media screen and (max-width:500px) {
+    .card{
+        width: 8rem;
+    height: 6rem;
+    }
+    .button1{
+        width: 77px;
+    height:28px;
+    }
+}
+
+
